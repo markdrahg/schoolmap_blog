@@ -1,0 +1,1 @@
+# schoolmap_blog
