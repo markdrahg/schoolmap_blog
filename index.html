@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Blog Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <style>
+        /* stylelint-disable selector-list-comma-newline-after */
+
+        .blog-header {
+            line-height: 1;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .blog-header-logo {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+            font-size: 2.25rem;
+        }
+
+        .blog-header-logo:hover {
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .display-4 {
+                font-size: 3rem;
+            }
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .nav-scroller .nav-link {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            font-size: .875rem;
+        }
+
+        .card-img-right {
+            height: 100%;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .flex-auto {
+            flex: 0 0 auto;
+        }
+
+        .h-250 {
+            height: 250px;
+        }
+
+        @media (min-width: 768px) {
+            .h-md-250 {
+                height: 250px;
+            }
+        }
+
+        /* Pagination */
+        .blog-pagination {
+            margin-bottom: 4rem;
+        }
+
+        .blog-pagination>.btn {
+            border-radius: 2rem;
+        }
+
+        /*
+        * Blog posts
+        */
+        .blog-post {
+            margin-bottom: 4rem;
+        }
+
+        .blog-post-title {
+            margin-bottom: .25rem;
+            font-size: 2.5rem;
+        }
+
+        .blog-post-meta {
+            margin-bottom: 1.25rem;
+            color: #727272;
+        }
+
+        /*
+        * Footer
+        */
+        .blog-footer {
+            padding: 2.5rem 0;
+            color: #727272;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-top: .05rem solid #e5e5e5;
+        }
+
+        .blog-footer p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-12 text-center">
+                    <a class="blog-header-logo text-dark" href="#">A Vision Mark Blog Post</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 font-italic">The Schol Map web app project</h1>
+                <p class="lead my-3">
+                    this is the school map project blog post containing detailed infomation about the source
+                </p>
+                <p class="lead mb-0 text-white font-weight-bold">welcome to our blog post</p>
+            </div>
+        </div>
+
+    </div>
+    <br/>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 font-italic border-bottom">
+                    A Vision Mark Production
+                </h3>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">What is School Map?</h2>
+                    <p class="blog-post-meta">June 6, 2024 by <a href="#">Mark</a></p>
+
+                    <p>
+                        The School Map project is a prototype for a forthcoming web application. 
+                        Its objective is to assist users by providing a list of suitable universities 
+                        that align with their educational requirements.
+                    </p>
+                    <div>
+                        <img src="sm_bg.png" width="70%">
+                    </div>
+                    <hr>
+
+                    <h2>What is the purpose of Schol Map?</h2>
+                    <p>The School Map project is an innovative initiative designed to consolidate information on hundreds of
+                         universities onto a single platform. This reduces the complexity and stress for users typically
+                          associated with searching the web, facilitating the identification of the most suitable and optimal 
+                          universities.
+                    </p>
+                    <h3>Our story</h3>
+                    <p>
+                        As part of an online software engineering assignment from ALX SE, my partner and I were tasked with 
+                        developing a project.
+                    </p>
+                    <p>
+                        Reflecting on previous challenges, I recalled the difficulty I faced in researching universities that
+                         matched my personality and academic background. This experience inspired me to create an innovative project, 
+                         "School Map." The project's goal is to assist individuals worldwide by providing a platform that suggests hundreds 
+                         of universities based on their requirements, desired programs, and current educational status, qualifications, and 
+                         background.
+                    </p>
+                    <p>
+                        I shared the concept with my partner, and she agreed to work on developing a prototype for our assignment. 
+                        However, upon further reflection, I realized the potential impact of this project and decided it should extend 
+                        beyond a mere prototype submission.
+                    </p>
+
+                    <p>
+                        During a meeting, we presented our prototype to senior developers, who supported the idea and encouraged us to 
+                        pursue its full development.
+                    </p>
+
+                    <p>
+                        From the initial idea development to showcasing the prototype, I gained valuable experience and resolved to bring 
+                        School Map to fruition, even if my partner chose not to continue with the project.
+                    </p>
+                    <p>
+                        Stay tuned for the launch of School Map, coming soon.
+                    </p>
+
+                </div>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Architecture</h2>
+                    <img src="dataflow.png" width="80%">
+                    </div>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title"> Technologies</h2>
+                    <p>These are the technologies needed to get the My School application runing on both front end and backend</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li> React js</li>
+                        <li>SQL, MySQL</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <aside class="col-md-4">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <p class="mb-0">
+                        Keep moving forward and never stop chassing your dreams cause you make the future, tomorrow 
+                        a better place.
+                    </p>
+                    <p>Never give up</p>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">The developers</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">Mark Drah</a></li>
+                        <li><a href="#">Mercy Jepkemboi</a></li>
+                    </ol>
+                    
+                    <br/>
+                    <h4 class="font-italic">Senior reviewers</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">Owen Gitau</a></li>
+                        <li><a href="#">Faith Cherono</a></li>
+                    </ol>
+
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">The project</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://github.com/markdrahg/SchoolMap" target="blank">Demo Repo</a></li>
+                        <li><a href="https://docs.google.com/document/d/1hFiOytRpG-Dj8mjqYJLqXKOP5HggKccC_x1eYMydHQs/edit?usp=sharing">Architecture Doc</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1UI4Oy7443tZObFVJatx2ocwf8jmvn1BMlLwFy4z4d_A/edit?usp=sharing">Demo Slide</a></li>
+                    </ol>
+                </div>
+            </aside>
+
+        </div><!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        <p>A Vision Mark Production by Mark <a href="https://www.linkedin.com/in/markdrah/">@LinkedIn</a> <a
+                href="https://github.com/markdrahg">@GitHub</a>.</p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
